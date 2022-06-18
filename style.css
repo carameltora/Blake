@@ -145,6 +145,7 @@ overflow-wrap: anywhere;
    font-size: 11px;
    margin-top: 10px;
    outline: none;
+    transition: 0.4s;
 }
 
 .bup:hover {
@@ -174,6 +175,7 @@ overflow-wrap: anywhere;
    font-weight: bold;
    font-size: 11px;
    outline: none;
+    transition: 0.4s;
 }
 
 .bap:hover {
@@ -191,4 +193,54 @@ overflow-wrap: anywhere;
    margin-top: 8px;
    font-size: 11px;
    cursor: pointer;
+}
+
+
+.username-ins {
+  color: white;
+  border: none;
+  border-radius: 7px;
+  height: 35px;
+  width: 310px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  background-color: #212121;
+  text-align: center;
+  outline: none;
+  margin-left:  8px;
+  margin-top: 25px;
+}
+
+.password-ins {
+  color: white;
+  border: none;
+  border-radius: 7px;
+  position: absolute;
+  height: 35px;
+  width: 310px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  background-color: #212121;
+  text-align: center;
+  outline: none;
+  margin-left:  8px;
+  margin-top: -8px;
+}
+
+.email-ins {
+  color: white;
+  border: none;
+  border-radius: 7px;
+  height: 35px;
+  width: 310px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  background-color: #212121;
+  text-align: center;
+  outline: none;
+  margin-left: 8px;
+  margin-top: 3px;
+}
+
+.inscription-div {
+  margin: 0 auto;
+  margin-top: 10%;
+  width: 340px;
 }
